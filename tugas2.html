@@ -50,30 +50,34 @@
     <div id="home">
         <div class="isi">
             <div class="container atas">
-                <h1>Tugas 1 <br> Teori Bahasa dan Otomata</h1>
+                <h1>Tugas 2 <br>Notasi BIG O</h1>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <i class="glyphicon glyphicon-pencil"></i>
-                        <h3>PENGERTIAN</h3>
-                        <p class="text-justify"><strong>Teori Bahasa</strong> membicarakan bahasa formal (formal language), terutama untuk kepentingan perancangan kompilator (compiler) dan pemroses naskah (text processor). Bahasa formal adalah kumpulan kalimat. Semua kalimat
-                            dalam sebuah bahasa dibangkitkan oleh sebuah tata bahasa (grammar) yang sama. Sebuah bahasa formal bisa dibangkitkan oleh dua atau lebih tata bahasa berbeda. Dikatakan bahasa formal karena grammar diciptakan mendahului pembangkitan
-                            setiap kalimatnya. Bahasa manusia bersifat sebaliknya; grammar diciptakan untuk meresmikan kata-kata yang hidup di masyarakat. Dalam pembicaraan selanjutnya ‘bahasa formal’ akan disebut ‘bahasa’ saja. Sementara itu
-                            <strong>Automata</strong> adalah mesin abstrak yang dapat mengenali (recognize), menerima (accept), atau membangkitkan (generate) sebuah kalimat dalam bahasa tertentu. </p>
+                        <h3>DEFINISI</h3>
+                        <p class="text-justify"><strong>Big-O Notation</strong> atau Notasi Big-O adalah cara untuk mengkonversi keseluruhan langkah-langkah suatu algoritma kedalam bentuk Aljabar, yaitu dengan menghiraukan konstanta yang lebih kecil dan koefisien yang tidak
+                            berdampak besar terhadap keseluruhan kompleksitas permasalahan yang diselesaikan oleh algoritma tersebut. Notasi Big O diperkenalkan oleh <strong>Paul Bachmann</strong>, pertama kali di Jerman, pada tahun 1894. Ketika anda
+                            ingin menjadi seorang programmer, Salah satu kemampuan yang harus anda miliki adalah memprediksi jumlah sumber daya yang akan dihabiskan oleh kode yang anda buat dengan mengukur seberapa efisien algoritma yang telah ditulis.
+                            baik itu sumber daya memori maupun sumberdaya waktu harus selalu diperhatikan dalam penulisan kode programmer Inilah yang biasa dimaksud dengan Big O Notasi. Notasi Big O yang terdiri dari time complexity atau berapa lama algoritma
+                            itu jalan, space complexity atau berapa banyak memori yang bakal dipakai oleh algoritma.</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <i class="glyphicon glyphicon-check"></i>
-                        <h3>APA YANG DIPELAJARI ?</h3>
-                        <p class="text-justify"><strong>Teori Bahasa dan Otomata</strong> mempelajari tentang mekanisme komputer abstrak atau mesin abstrak. Jauh sebelum ada komputer, tahun 1930, Alan Turing mempelajari mesin abstrak yang punya kemampuan seperti komputer sekarang,
-                            dikenal dengan nama Mesin Turing. Tujuan Turing adalah menggambarkan secara jelas apa yang dapat dan yang tidak dapat dilakukan mesin komputing. Kemudian pada tahun 1940 an dan 1950-an, ditemukan mesin abstrak yang lebih sederhana,
-                            yaitu “finite automata”. Automata ini, asalnya diperuntukkan untuk membentuk fungsi kecerdasan, berubah secara drastis untuk keperluan lain yang sangat beragam. Tahun 1950-an juga Chomsky mempelajari tentang “tata bahasa” formal,
-                            yang sangat berguna untuk pengembangan compiler.</p>
+                        <h3>KEGUNAAN</h3>
+                        <p class="text-justify">Notasi Big O digunakan untuk menggambarkan <strong>performa atau kompleksitas</strong> dari sebuah algoritma. Secara spesifik Big O menggambarkan skenario terburuk, dan bisa digunakan untuk menghitung waktu eksekusi yang dibutuhkan
+                            atau ruang yang digunakan (contohnya pada memori atau disk) oleh algoritma. Notasi Big O juga digunakan untuk mengklasifikasikan algoritma sesuai dengan bagaimana waktu proses (runtime) ataupun kebutuhan ruang meningkat seiring
+                            dengan meningkatnya size dari inputnya. (n) menyatakan jumlah tahap komputasi yang dilakukan untuk menjalankan suatu algoritma sebagai fungsi dari ukuran masukan n. Suatu algoritma memiliki kompleksitas O(f(n)), dibaca orde
+                            f terhadap n, jika waktu yang diperlukan oleh algoritma mengikuti laju fungsi f(n) dengan kondisi nilai n yang besar. Notasi Big-O berfungsi dalam mengkategorikan algoritma ke fungsi yang menggambarkan upper limit atau batas
+                            atas dari pertumbuhan sebuah fungsi ketika masukan dari fungsi tersebut bertambah banyak dengan menggunakan fungsi Big-O.</p>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <i class="glyphicon glyphicon-tags"></i>
-                        <h3>FUNGSI ILMU YANG DIPELAJARI</h3>
-                        <p class="text-justify"><strong>Grammars dan Regular Expressions</strong> adalah contoh fungsi ilmu yang dipelajari pada TBO. <strong>Grammars atau Tata bahasa</strong> adalah model yang berguna saat merancang perangkat lunak yang memproses data rekursif.
-                            Contoh paling terkenal adalah "parser", komponen kompilator yang menangani fitur bertingkat rekursif dari bahasa pemrograman tipikal, seperti ekspresi - aritmatika, bersyarat, dan sebagainya.
-                            <strong>Regular Expressions</strong> menunjukkan struktur data dan juga bentuk string teks. Pola string yang digambarkan persis sama dengan finite automata. Gaya ekspresi sangat berbeda dari gaya tata bahasa.</p>
+                        <h3>CONTOH</h3>
+                        <p class="text-justify">Terdapat beberapa contoh notasi Big-O yaitu <strong> pertama, O(1) — Constant Time </strong> artinya banyaknya input yang diberikan kepada sebuah algoritma, tidak akan mempengaruhi waktu proses (runtime) dari algoritma tersebut.
+                            <strong>kedua, O(log n) — Logarithmic Time </strong> artinya ketika kita memberikan input sebesar n terhadap sebuah fungsi, jumlah tahapan yang dilakukan oleh fungsi tersebut berkurang berdasarkan suatu faktor. <strong>ketiga, O(n) — Linear Time </strong>adalah
+                            ketika runtime dari fungsi kita berbanding lurus dengan jumlah input yang diberikan. <strong>keempat, O(n2) — Quadratic Time</strong> adalah ketika runtime dari fungsi kita adalah sebesar n2, dimana n adalah jumlah input dari
+                            fungsi tersebut. dan <strong>kelima, O(2n) —Exponential Time </strong> biasanya digunakan dalam situasi dimana kita tidak terlalu tahu terhadap permasalahan yang dihadapi, sehingga mengharuskan kita mencoba setiap kombinasi
+                            dan permutasi dari semua kemungkinan.</p>
                     </div>
                 </div>
             </div>
@@ -81,7 +85,7 @@
     </div>
     <!-- container atas -->
 
-    <!-- container bawah -->
+    <!-- container bawah
     <div class="container bawah">
         <h1>Contoh Penerapan Teori Bahasa dan Otomata</h1>
         <div class="row">
@@ -97,7 +101,7 @@
                     tombol ditekan state berubah menjadi “on”. Jika switch berada dalam state “on” maka setelah tombol ditekan state berubah menjadi “off”. </p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- container bawah -->
 
     <!-- container news -->
